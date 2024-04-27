@@ -1,0 +1,23 @@
+﻿<Window x:Class="Semana7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Semana7"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="pink">
+    <Grid>
+        <StackPanel>
+
+
+            <Button Content="Listar" Click="Button_Click" Height="25" Width="100"/>
+            <Button Content="Buscar" Click="Button_Click_find" Height="25" Width="100"/>
+
+
+            <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="38,69,0,0" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top" Width="120"/>
+            <DataGrid x:Name="dgPeople18"/>
+
+        </StackPanel>
+
+    </Grid>
+</Window>
